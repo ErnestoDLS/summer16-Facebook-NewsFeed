@@ -1,0 +1,39 @@
+html {
+  font-size: 63%;
+}
+
+body {
+  background: rgba(233, 235, 238, 1);
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+.detail--wrapper {
+  height: 8rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.author__avatar {
+  float: left;
+  margin-right: 1rem;
+  height: 7rem ;
+  width: 7rem;
+}
+
+.author__name {
+  color: rgb(59, 89, 152);
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.author__date {
+  color: rgb(128, 128, 128);
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: -300;
+  margin-top: 0;
+}

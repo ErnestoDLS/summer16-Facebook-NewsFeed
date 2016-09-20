@@ -17,8 +17,8 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <h2 className={this.stated.liked ? "like_article--clicked" : "like_article"} onClick={this.onHandleClickLike}>Like</h2>
-        <h2 className={this.state.commented ? "comment_article--clicked" : "comment_article"} onClick={this.onHandleClickComment}></h2>
+        <h2 className={this.state.liked ? "like_article--clicked" : "like_article"} onClick={this.onHandleClickLike}>Like</h2>
+        <h2 className={this.state.commented ? "comment_article--clicked" : "comment_article"} onClick={this.onHandleClickComment}>Comment</h2>
       </div>
     )
   }
