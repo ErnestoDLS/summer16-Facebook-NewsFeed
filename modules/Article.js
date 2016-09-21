@@ -7,9 +7,9 @@ export default React.createClass({
   getDefaultProps(){
     return {
       author_name: "Batman",
-      author_img: "http://static1.comicvine.com/uploads/original/11111/111119341/5379448-7147771488-Batma.jpg",
-      text: "I am the BAT MAN...",
-      date: "December 8th"
+      author__img: "./images/batman.jpg",
+      text: "Bored, Poison Ivy doesn't answer..... #TBH",
+      date: "1hr - San Antonio, TX "
     }
   },
 

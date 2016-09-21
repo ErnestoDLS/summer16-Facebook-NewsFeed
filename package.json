@@ -5,6 +5,7 @@
     "start": "webpack-dev-server --inline --content-base ."
   },
   "dependencies": {
+    "font-awesome": "^4.6.3",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-router": "^2.0.0"

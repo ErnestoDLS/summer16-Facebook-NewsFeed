@@ -1,13 +1,21 @@
 html {
-  font-size: 63%;
+  font-size: 62.5%;
 }
 
 body {
-  background: rgba(233, 235, 238, 1);
+  background: rgba( 233, 235, 238, 100);
 }
 
 h3 {
   font-weight: lighter;
+}
+
+.main__article {
+  width: 754px;
+  background-color: rgb(247,247,247);
+  margin: 0 auto;
+  border-left: 1px solid rgb(223,227,238);
+  border-right: 1px solid rgb(223,227,238);
 }
 
 .detail--wrapper {
@@ -18,22 +26,97 @@ h3 {
 
 .author__avatar {
   float: left;
-  margin-right: 1rem;
-  height: 7rem ;
   width: 7rem;
+  height: 7rem;
+  margin-right: 1rem;
 }
 
 .author__name {
-  color: rgb(59, 89, 152);
+  color: rgb(59,89,152);
   font-size: 2rem;
-  margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .author__date {
-  color: rgb(128, 128, 128);
-  font-size: 1.5rem;
+  color: gray;
+  font-size: 1.4rem;
   font-weight: 400;
-  margin-left: -300;
   margin-top: 0;
+  margin-left: -300;
+}
+
+.text--wrapper {
+  padding: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.article__actions {
+  padding-top: 1rem;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.like__article {
+  color: gray;
+  display: inline-block;
+  margin: 0 2rem 0 0;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.like__article--clicked {
+  color: rgb(59,89,152);
+  display: inline-block;
+  margin: 0 2rem 0 0;
+  padding-left: 10px;
+  cursor: pointer;
+
+}
+
+.comment__article--clicked {
+  color: green;
+  display: inline-block;
+  margin: 0 2rem 0 0;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.comment__article {
+  display: inline-block;
+  margin: 0 2rem 0 0;
+  color: gray;
+  padding-left: 10px;
+  cursor: pointer;
+
+}
+
+.comments__avatar {
+  width: 7rem;
+  height: 7rem;
+  float: left;
+  padding-right: 1rem;
+}
+
+.comments__text {
+  padding-left: 10rem;
+  padding-bottom: 5rem;
+  color: rgba(75, 75, 69, 0.21);
+}
+
+.share__article {
+  color: gray;
+  display: inline-block;
+  margin: 0 2rem 0 0;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.share__article--clicked {
+  color: red;
+  display: inline-block;
+  margin: 0 2rem 0 0;
+  padding-left: 10px;
+  cursor: pointer;
 }
